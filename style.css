@@ -1,0 +1,122 @@
+@charset "utf-8";
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: left; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+	background-color: #666666;
+	background-image: url(landscape.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+#container {
+	height: 1000px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 14px;
+}
+#header {
+	background-image: url(Untitled-1_01.png);
+	height: 160px;
+	width: 1000px;
+}
+#links {
+	background-image: url(Untitled-1_02.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 236px;
+	width: 1000px;
+}
+#foterp {
+	padding-top: 10px;
+	font-size: 10px;
+}
+
+
+.linktext {
+	padding-top: 10px;
+	padding-left: 150px;
+	width: 400px;
+}
+#headerh1 {
+	padding-top: 95px;
+	font-size: 36px;
+	font-family: "Comic Sans MS", cursive;
+}
+
+#menu {
+	background-image: url(Untitled-1_03.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 79px;
+	width: 1000px;
+}
+#menutext {
+	padding-top: 30px;
+	padding-left: 150px;
+}
+#Content {
+	background-image: url(Untitled-1_04.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 482px;
+	width: 1000px;
+}
+#contetext {
+	padding-left: 150px;
+	padding-right: 150px;
+	font-size: 20px;
+	padding-top: 30px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+#contetext2 {
+	padding-right: 150px;
+	padding-left: 150px;
+	padding-top: 20px;
+	height: 230px;
+	font-size: 12px;
+}
+#social {
+	height: 50px;
+	width: 300px;
+	float: right;
+	padding-top: 170px;
+}
+
+
+
+
+.linktext2 {
+	padding-top: 33px;
+	padding-left: 150px;
+	width: 400px;
+}
+
+#pic {
+	height: 160px;
+	width: 200px;
+	padding-left: 150px;
+}
+#pic2 {
+	height: 160px;
+	width: 200px;
+	float: right;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+#footer {
+	background-image: url(Untitled-1_05.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 43px;
+	width: 1000px;
+}
+
+#pic3 {
+	float: right;
+	height: 160px;
+	width: 200px;
+	padding-right: 150px;
+}
